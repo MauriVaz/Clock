@@ -1,0 +1,45 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 3;
+}
+body {
+  background-color: white;
+  color: black;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.title {
+  text-align: center;
+}
+.subtitle {
+  text-align: center;
+}
+.reloj {
+  width: 150px;
+  padding: 2em;
+  border-radius: 5px;
+  border: 3px solid black;
+  font: bold 1.5em dotum, 'lucida sans', arial;
+  margin: 1em 3em 1em 1em;
+}
+.fecha {
+  width: 150px;
+  padding: 2em;
+  border-radius: 5px;
+  border: 3px solid black;
+  font: bold 1.5em dotum, 'lucida sans', arial;
+  margin: 1em 3em 1em 1em;
+}
+.Fecha {
+  background-color: lightblue;
+  padding: 3em;
+}
+.Hora {
+  background-color: lightblue;
+  padding: 3em;
+}
