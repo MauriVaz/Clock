@@ -6,7 +6,7 @@ section {
   margin: 3;
 }
 body {
-  background-color: white;
+  background-image: url('../public/reloj.jpg');
   color: black;
 }
 .dark-mode {
@@ -22,24 +22,26 @@ body {
 .reloj {
   width: 150px;
   padding: 2em;
-  border-radius: 5px;
+  border-radius: 40px;
   border: 3px solid black;
   font: bold 1.5em dotum, 'lucida sans', arial;
-  margin: 1em 3em 1em 1em;
+  margin: 5px;
 }
 .fecha {
   width: 150px;
   padding: 2em;
-  border-radius: 5px;
+  border-radius: 40px;
   border: 3px solid black;
   font: bold 1.5em dotum, 'lucida sans', arial;
-  margin: 1em 3em 1em 1em;
+  margin: 5px;
 }
 .Fecha {
   background-color: lightblue;
+  border-radius: 20px;
   padding: 3em;
 }
 .Hora {
   background-color: lightblue;
+  border-radius: 20px;
   padding: 3em;
 }
