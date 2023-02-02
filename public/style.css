@@ -5,43 +5,59 @@ section {
   justify-content: space-around;
   margin: 3;
 }
+
 body {
-  background-image: url('../public/reloj.jpg');
+  background-color: white;
   color: black;
 }
+
 .dark-mode {
   background-color: black;
   color: white;
 }
+
 .title {
   text-align: center;
 }
+
 .subtitle {
   text-align: center;
+  margin: 2em;
 }
-.reloj {
-  width: 150px;
-  padding: 2em;
-  border-radius: 40px;
-  border: 3px solid black;
-  font: bold 1.5em dotum, 'lucida sans', arial;
-  margin: 5px;
-}
+
 .fecha {
-  width: 150px;
-  padding: 2em;
-  border-radius: 40px;
-  border: 3px solid black;
-  font: bold 1.5em dotum, 'lucida sans', arial;
-  margin: 5px;
+  display: flex;
 }
+
 .Fecha {
-  background-color: lightblue;
   border-radius: 20px;
   padding: 3em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+
 .Hora {
-  background-color: lightblue;
   border-radius: 20px;
   padding: 3em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2px;
+}
+
+button {
+  background-color: aquamarine;
+  padding: 6px;
+  border-radius: 15px;
+  top: 0px
+}
+
+button:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+#titleChange {
+  text-align: center;
 }
